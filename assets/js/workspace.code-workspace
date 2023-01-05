@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\Seach-tag-th7"
+		},
+		{
+			"path": "..\\..\\..\\Validate-Form-day8"
+		},
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\pressKey-Th-day6"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "weatherApp-thday9"
+	}
+}

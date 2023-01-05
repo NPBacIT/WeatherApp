@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( to bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url(/assets/img/hot.png) no-repeat center/cover;
+}
+.weather{
+width: 350px;
+background-color: yellowgreen;
+padding: 30px 20px;
+background: url(/assets/img/hot.png) no-repeat center/cover;
+
+}
+.cold {
+    background: linear-gradient( to bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url(/assets/img/cold.png) no-repeat center/cover;
+
+}
+.cold .weather{
+    background: url(/assets/img/cold.png) no-repeat center/cover;
+}
+.hot {
+    background: linear-gradient( to bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url(/assets/img/hot.png) no-repeat center/cover;
+
+}
+.hot .weather{
+    background: url(/assets/img/hot.png) no-repeat center/cover;
+}
+.weather .input-search{
+     width: 100%;
+     padding: 10px;
+     font-size: 18px;
+     outline: none;
+     border: none;
+     border-radius: 0 15px 0 15px;
+     background: rgba(255,255,255,0.3);
+     box-shadow: 0 5px 4px rgba(0,0,0,0.2);
+     transition: 0.3s;
+}
+.weather .input-search:focus{
+    background: rgba(255,255,255,0.7);
+    border-radius: 15px 0 15px 0;
+}
+.content{
+    text-align: center;
+    margin: 40px 0;
+    color: white;
+    transition: 0.4s;
+
+}
+.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+.content .name{
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+.content .time{
+      margin: 10px 0 25px 0;
+
+}
+.content .temperature{
+    text-align: center;
+    font-size: 65px;
+    font-weight: 600;
+    background: rgba(225,225,225,0.4);
+    text-shadow: 4px 4px rgba(0,0,0,0.4);
+    border-radius: 10px;
+      display: inline-block;
+    padding: 25px;
+    box-shadow: 4px 4px rgba(0,0,0,0.5);
+}
+.short-desc{
+    margin: 40px 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+.more-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.more-desc div{
+
+    display: flex;
+    flex-direction: column;
+}
